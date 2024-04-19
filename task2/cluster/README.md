@@ -6,10 +6,9 @@
 
  - Создаим три контейнера с редисом: 0 - мастер и 2-3 - слейвы
 ```bash
-# Узел redis-0
 cd conf
 
-
+# Узел redis-0
 docker run -d --rm --name redis-0 \
     --net redis \
     -v $(pwd)/redis-0:/etc/redis/ \
