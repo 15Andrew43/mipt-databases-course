@@ -7,8 +7,8 @@ box.schema.create_space('users', {
         { name = 'id',               type = 'unsigned' },
         { name = 'bucket_id',        type = 'unsigned' },
         { name = 'balance',          type = 'double' },
-        { name = 'price',      type = 'double' },
-        { name = 'status',       type = 'boolean' },
+        { name = 'price',            type = 'double' },
+        { name = 'status',           type = 'boolean' },
         { name = 'last_update_time', type = 'double' },
     },
     if_not_exists = true
